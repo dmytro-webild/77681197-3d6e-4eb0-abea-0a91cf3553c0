@@ -29,33 +29,19 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "About Us",
-          id: "/about",
-        },
+          name: "About Us",          id: "/about"},
         {
-          name: "Academics",
-          id: "/academics",
-        },
+          name: "Academics",          id: "/academics"},
         {
-          name: "Admissions",
-          id: "/admissions",
-        },
+          name: "Admissions",          id: "/admissions"},
         {
-          name: "News",
-          id: "/news",
-        },
+          name: "News",          id: "/news"},
         {
-          name: "Gallery",
-          id: "/gallery",
-        },
+          name: "Gallery",          id: "/gallery"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="Elite Academy"
     />
@@ -65,92 +51,51 @@ export default function LandingPage() {
       <HeroSplitTestimonial
       useInvertedBackground={false}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Excellence in Education"
       description="Nurturing the future leaders of tomorrow through holistic learning and innovation."
       testimonials={[
         {
-          name: "John Doe",
-          role: "Parent",
-          company: "Class of 2024",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/attractive-feminine-tender-young-woman-curlyhaired-chubby-smiling-silly-look-camera-blue-eyes-girlfriend-attend-first-date-liking-spend-time-together-boyfriend-have-fun-look-happy-white-background_176420-50549.jpg",
-        },
+          name: "John Doe",          handle: "Parent",          testimonial: "Class of 2024",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/attractive-feminine-tender-young-woman-curlyhaired-chubby-smiling-silly-look-camera-blue-eyes-girlfriend-attend-first-date-liking-spend-time-together-boyfriend-have-fun-look-happy-white-background_176420-50549.jpg"},
         {
-          name: "Jane Smith",
-          role: "Student",
-          company: "Science Club",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/lifestyle-portrait-young-smiling-woman-student-office-employee-standing-street-blue_1258-205568.jpg",
-        },
+          name: "Jane Smith",          handle: "Student",          testimonial: "Science Club",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/lifestyle-portrait-young-smiling-woman-student-office-employee-standing-street-blue_1258-205568.jpg"},
         {
-          name: "Mark Wilson",
-          role: "Alumni",
-          company: "University of Tech",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-portrait-smiling-enthusiastic-hispanic-male-student-searching-job-consider-career-opportu_1258-113382.jpg",
-        },
+          name: "Mark Wilson",          handle: "Alumni",          testimonial: "University of Tech",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/closeup-portrait-smiling-enthusiastic-hispanic-male-student-searching-job-consider-career-opportu_1258-113382.jpg"},
         {
-          name: "Sarah Lee",
-          role: "Parent",
-          company: "Class of 2025",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/confident-businesswoman-with-coworkers_1139-204.jpg",
-        },
+          name: "Sarah Lee",          handle: "Parent",          testimonial: "Class of 2025",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/confident-businesswoman-with-coworkers_1139-204.jpg"},
         {
-          name: "David Brown",
-          role: "Faculty",
-          company: "Math Dept",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-father-daughter-looking-photographer_23-2148349736.jpg",
-        },
+          name: "David Brown",          handle: "Faculty",          testimonial: "Math Dept",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-father-daughter-looking-photographer_23-2148349736.jpg"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/group-international-students-sitting-grass-together-park-university-african-caucasian-girls-indian-boy-talking-outdoors_1157-50065.jpg"
       mediaAnimation="blur-reveal"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/back-school-university-concept-portrait-cheerful-handsome-male-student-describe-his-summer-vac_1258-109327.jpg",
-          alt: "student",
-        },
+          src: "http://img.b2bpic.net/free-photo/back-school-university-concept-portrait-cheerful-handsome-male-student-describe-his-summer-vac_1258-109327.jpg",          alt: "student"},
         {
-          src: "http://img.b2bpic.net/free-photo/young-beautiful-cheerful-african-woman-student-smiling-laughing-sitting-cafe-books-magazines-lying-table-learning-education_176420-12412.jpg",
-          alt: "student",
-        },
+          src: "http://img.b2bpic.net/free-photo/young-beautiful-cheerful-african-woman-student-smiling-laughing-sitting-cafe-books-magazines-lying-table-learning-education_176420-12412.jpg",          alt: "student"},
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-young-woman-library_641386-223.jpg",
-          alt: "student",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-young-woman-library_641386-223.jpg",          alt: "student"},
         {
-          src: "http://img.b2bpic.net/free-photo/friendly-confident-pleasant-redhead-woman-helpfully-look-camera-smiling-joyfully-have-conversation-c_1258-142216.jpg",
-          alt: "faculty",
-        },
+          src: "http://img.b2bpic.net/free-photo/friendly-confident-pleasant-redhead-woman-helpfully-look-camera-smiling-joyfully-have-conversation-c_1258-142216.jpg",          alt: "faculty"},
         {
-          src: "http://img.b2bpic.net/free-photo/closeup-portrait-cheerful-smiling-man-looking-happy-express-enthusiastic-optimistic-emotions-seei_1258-113416.jpg",
-          alt: "faculty",
-        },
+          src: "http://img.b2bpic.net/free-photo/closeup-portrait-cheerful-smiling-man-looking-happy-express-enthusiastic-optimistic-emotions-seei_1258-113416.jpg",          alt: "faculty"},
       ]}
       marqueeItems={[
         {
-          type: "text",
-          text: "Innovation",
-        },
+          type: "text",          text: "Innovation"},
         {
-          type: "text",
-          text: "Integrity",
-        },
+          type: "text",          text: "Integrity"},
         {
-          type: "text",
-          text: "Excellence",
-        },
+          type: "text",          text: "Excellence"},
         {
-          type: "text",
-          text: "Community",
-        },
+          type: "text",          text: "Community"},
         {
-          type: "text",
-          text: "Leadership",
-        },
+          type: "text",          text: "Leadership"},
       ]}
     />
   </div>
@@ -170,26 +115,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          tag: "Academics",
-          title: "World Class Curriculum",
-          subtitle: "Innovative",
-          description: "Rigorous academic standards.",
-          imageSrc: "http://img.b2bpic.net/free-vector/20-modern-education-knowledge-power-solid-glyph-icon-pack-like-van-education-learining-growth-knowledge-growth_1142-15516.jpg",
-        },
+          tag: "Academics",          title: "World Class Curriculum",          subtitle: "Innovative",          description: "Rigorous academic standards.",          imageSrc: "http://img.b2bpic.net/free-vector/20-modern-education-knowledge-power-solid-glyph-icon-pack-like-van-education-learining-growth-knowledge-growth_1142-15516.jpg"},
         {
-          tag: "Sports",
-          title: "Athletic Excellence",
-          subtitle: "Dynamic",
-          description: "State of the art training.",
-          imageSrc: "http://img.b2bpic.net/free-photo/cartoon-vector-illustration-yellow-sticky-notes-pencil_1308-186781.jpg",
-        },
+          tag: "Sports",          title: "Athletic Excellence",          subtitle: "Dynamic",          description: "State of the art training.",          imageSrc: "http://img.b2bpic.net/free-photo/cartoon-vector-illustration-yellow-sticky-notes-pencil_1308-186781.jpg"},
         {
-          tag: "Culture",
-          title: "Creative Arts",
-          subtitle: "Inclusive",
-          description: "Fostering creative minds.",
-          imageSrc: "http://img.b2bpic.net/free-vector/illustration-education-concept_53876-20589.jpg",
-        },
+          tag: "Culture",          title: "Creative Arts",          subtitle: "Inclusive",          description: "Fostering creative minds.",          imageSrc: "http://img.b2bpic.net/free-vector/illustration-education-concept_53876-20589.jpg"},
       ]}
       title="Institutional Highlights"
       description="Our curriculum fosters growth across Academics, Sports, and Cultural disciplines."
@@ -204,30 +134,15 @@ export default function LandingPage() {
       description="Get quick answers to common questions about our programs."
       faqs={[
         {
-          id: "1",
-          title: "What is the admission process?",
-          content: "Our process involves an online application followed by an interview.",
-        },
+          id: "1",          title: "What is the admission process?",          content: "Our process involves an online application followed by an interview."},
         {
-          id: "2",
-          title: "Do you offer financial aid?",
-          content: "Yes, we provide merit-based scholarships and need-based aid.",
-        },
+          id: "2",          title: "Do you offer financial aid?",          content: "Yes, we provide merit-based scholarships and need-based aid."},
         {
-          id: "3",
-          title: "What are the school hours?",
-          content: "Our school operates from 8:00 AM to 3:30 PM.",
-        },
+          id: "3",          title: "What are the school hours?",          content: "Our school operates from 8:00 AM to 3:30 PM."},
         {
-          id: "4",
-          title: "Is transport available?",
-          content: "We offer extensive bus services across the city.",
-        },
+          id: "4",          title: "Is transport available?",          content: "We offer extensive bus services across the city."},
         {
-          id: "5",
-          title: "How can I contact the administration?",
-          content: "You can reach us through the contact page.",
-        },
+          id: "5",          title: "How can I contact the administration?",          content: "You can reach us through the contact page."},
       ]}
       faqsAnimation="blur-reveal"
     />
@@ -237,16 +152,13 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Join Us"
       title="Ready to Enroll?"
       description="Start your journey with Elite Academy today."
       buttons={[
         {
-          text: "Apply Now",
-          href: "/admissions",
-        },
+          text: "Apply Now",          href: "/admissions"},
       ]}
     />
   </div>
@@ -256,29 +168,19 @@ export default function LandingPage() {
       logoText="Elite Academy"
       columns={[
         {
-          title: "Quick Links",
-          items: [
+          title: "Quick Links",          items: [
             {
-              label: "About",
-              href: "/about",
-            },
+              label: "About",              href: "/about"},
             {
-              label: "Academics",
-              href: "/academics",
-            },
+              label: "Academics",              href: "/academics"},
           ],
         },
         {
-          title: "Contact",
-          items: [
+          title: "Contact",          items: [
             {
-              label: "Admissions",
-              href: "/admissions",
-            },
+              label: "Admissions",              href: "/admissions"},
             {
-              label: "Email Support",
-              href: "/contact",
-            },
+              label: "Email Support",              href: "/contact"},
           ],
         },
       ]}
